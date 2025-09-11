@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+#app{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+}
+
+.input-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#task-input{
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#add-button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#task-list{
+    list-style: none;
+    padding: 0;
+}
